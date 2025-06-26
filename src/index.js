@@ -1,1 +1,4 @@
-console.log("Todo App Loaded 🚀");
+import './style.css'
+import { createLayout } from './domManager'
+
+createLayout();
